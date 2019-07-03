@@ -57,6 +57,9 @@ class ForestEnvironment : Environment
     public override void CreateEnvironment()
     {
         EnvironmentObjects.Add(new EnvTree(new Vector3(0,0,0)));
+        EnvironmentObjects.Add(new EnvTree(new Vector3(5, 0, 0)));
+        EnvironmentObjects.Add(new EnvTree(new Vector3(8, 0, 0)));
+        EnvironmentObjects.Add(new EnvTree(new Vector3(10, 0, 0)));
     }
 }
 class RockyEnvironment : Environment

@@ -38,7 +38,7 @@ public class BuilderMethod : MonoBehaviour
         Character humanoid = humanBuilder.GetCharacter();
         Character womanoid = womanBuilder.GetCharacter();
 
-        Debug.Log("Build");
+
         BuildCharacterGraphics(womanoid);
     }
 
@@ -103,12 +103,12 @@ class HumanoidBuilder : CharacterBuilder
 
     public override void BuildBreasts()
     {
-
+        //
     }
 
     public override void BuildHair()
     {
-
+        //
     }
 
     public override void BuildHead()
